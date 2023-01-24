@@ -46,9 +46,9 @@ class Ticket {
 }
 
 fun main() {
-    val ticketObj = Ticket()
-    ticketObj.Booking().customerDetails()
-    ticketObj.Booking().display()
+    val ticketObj = Ticket().Booking()
+    ticketObj.customerDetails()
+    ticketObj.display()
 }
 
 /*
